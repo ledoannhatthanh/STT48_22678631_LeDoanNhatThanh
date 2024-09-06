@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiệm giày Nike của Thanh</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        .wrapper {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            border: 1px solid rebeccapurple;
+        }
+        
+        nav {
+            height: 50px;
+            background-color: #333;
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            list-style: none;
+            height: 100%;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 0 15px;
+        }
+        
+        nav ul li:hover {
+            background-color: #333333;
+        }
+        
+        header {
+            height: 300px;
+            background: url('https://thuythu.vn/wp-content/uploads/2021/06/website-ban-giay-1.png') center/cover no-repeat;
+        }
+        
+        .content {
+            display: flex;
+            padding: 20px;
+        }
+        
+        .menu_left {
+            width: 20%;
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        .menu_left ul {
+            list-style: none;
+        }
+        
+        .menu_left ul li {
+            margin-bottom: 10px;
+        }
+        
+        .menu_left ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        
+        .menu_left ul li:hover {
+            background-color: #ddd;
+        }
+        
+        .products {
+            width: 80%;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 10px;
+        }
+        
+        .product {
+            width: calc(50% - 20px);
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        .product img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .product h3 {
+            margin: 10px 0;
+        }
+        
+        .product p {
+            margin: 5px 0;
+        }
+        
+        .product button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .product button:hover {
+            background-color: #555;
+        }
+        
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav>
+            <ul class="menu">
+                <li><a href="https://www.nike.com/vn/">HOME</a></li>
+                <li><a href="#">NEW & FEATURED</a></li>
+                <li><a href="#">MEN</a></li>
+                <li><a href="#">WOMEN</a></li>
+                <li><a href="#">KIDS</a></li>
+                <li><a href="#">SALE</a></li>
+                <li><a href="#">CUSTOMIZE</a></li>
+            </ul>
+        </nav>
+        <header></header>
+        <div class="content">
+            <div class="menu_left">
+                <ul class="menu">
+                    <li><a href="#">NIKE</a></li>
+                    <li><a href="#">ADIDAS</a></li>
+                    <li><a href="#">PUMA</a></li>
+                    <li><a href="#">BITI'S</a></li>
+                    <li><a href="#">REEBOK</a></li>
+                </ul>
+            </div>
+            <div class="products">
+                <div class="product">
+                    <img src="https://myshoes.vn/image/cache/catalog/2024/nike/nk4/giay-nike-dunk-low-nam-trang-xanh-duong.01-800x800.jpg.webp" alt="Nike Shoe 1">
+                    <h3>Nike Dunk Low Retro - White Blue</h3>
+                    <p>Price: $120</p>
+                    <button>Buy Now</button>
+                </div>
+                <div class="product">
+                    <img src="https://myshoes.vn/image/cache/catalog/2024/nike/nk01/giay-nike-dunk-low-nam-trang-do-01-800x800.jpg.webp" alt="Nike Shoe 2">
+                    <h3>Nike Dunk Low Retro - White Red</h3>
+                    <p>Price: $90</p>
+                    <button>Buy Now</button>
+                </div>
+                <!-- Add more products as needed -->
+            </div>
+        </div>
+        <footer>
+            <p>© 2024 Nike, Inc. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
